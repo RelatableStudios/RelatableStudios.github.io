@@ -1,0 +1,127 @@
+html, body{
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+html body {
+	background-color: rgba(244,217,158);/*rgba(180, 180, 180, 50);*/
+	min-height: 400px;
+	margin-bottom: 50px;
+	clear: both;
+	font-family: corbel;
+	font-size: 20px;
+}
+
+/* topbar -----------------------------------------------------*/
+div.topbar {
+	background-color: rgba(33, 33, 33, 50);  
+	background-size: cover;
+	padding: 10px;
+	white-space: nowrap;
+}
+
+div.topbar links {
+  display: flex;
+  justify-content: flex-end;
+  display: inline;
+  float: right;
+  padding-top: 20px;
+  
+}
+
+div.topbar a {
+	color: white;
+	font-size: 2rem;
+	padding: 0 10px;
+    margin: 0;
+	display: center;
+}
+
+/* footer ----------------------------------------------------- */
+div.footer {
+	color: white;
+	text-align: center;
+	background-size: cover;
+	background-color: rgba(33, 33, 33, 50);
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+div.footer h5 {
+	font-size: 20px;
+}
+
+/* home */
+div.home h1, h2, h3{
+	box-shadow: 8px 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 5px 10px;
+	border: 20px 0;
+	/*border-style: groove;*/
+	/*text-align: center;*/
+}
+
+div.features h4{
+	font-size: 25px;
+}
+
+div.home p {
+	/*box-shadow: 2px 4px 8px 1px rgba(0,0,0,0.2);*/
+	padding: 5px 10px;
+}
+
+div.home a {
+	padding: 5px 50px 50px 10px;
+	margin: 0 0 20px 0;
+}
+
+
+
+/* narrative ----------------------------------------------------- */
+div.narrative *{
+	padding: 0 10px;	
+}
+
+
+
+/* gameplay ----------------------------------------------------- */
+div.gameplay *{
+	padding: 0 10px;
+	text-align: center;
+}
+
+div.gameplay video {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+/* features ----------------------------------------------------- */
+div.features *{
+	padding: 0 10px;
+	
+}
+
+
+
+/* contact us ----------------------------------------------------- */
+div.contactUs *{
+	padding: 0 10px;
+	
+}
+
+
+/* credits ----------------------------------------------------- */
+div.credits *{
+	padding: 0 10px;
+}
+
+#indent {
+	padding: 0 30px;
+}
+
