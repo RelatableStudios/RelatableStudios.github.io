@@ -122,6 +122,11 @@ div.contactUs *{
 	
 }
 
+div.contactUs img {
+	height: auto;
+	width: 75%;
+	
+}
 
 /* credits ----------------------------------------------------- */
 div.credits *{
