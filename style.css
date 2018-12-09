@@ -94,10 +94,12 @@ div.gameplay *{
 	text-align: center;
 }
 
-div.gameplay video {
+div.gameplay video,img {
 	display: block;
 	margin: 0 auto;
 }
+
+
 
 
 
